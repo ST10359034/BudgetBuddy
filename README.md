@@ -26,6 +26,8 @@
 **BudgetBuddy** is a modern Android application built to help users manage their finances easily and effectively.  
 It offers **expense tracking**, **budget planning**, **reports**, **rewards**, and **insights** — all wrapped in a beautiful, user-friendly experience.
 
+![🚀 About the Project](image1.jpg)
+
 ---
 
 ## 🛠️ Features
@@ -40,6 +42,8 @@ It offers **expense tracking**, **budget planning**, **reports**, **rewards**, a
 - ☁️ **Cloud Sync** — Backup your financial data securely
 - ⚙️ **Profile & Settings** — Manage personal details and app preferences
 
+![🛠️ Features](image2.jpg)
+
 ---
 
 ## 🆕 New & Lecturer-Requested Features
@@ -51,11 +55,15 @@ A custom budgeting floor that ensures users don’t budget below their essential
 - Integrated with **Auto Budget**, influencing algorithmic recommendations.
 - Ensures realistic, goal-driven planning and serves as a safeguard against under-budgeting.
 
+![📉 Personal Minimum Budget](image3.jpg)
+
 ### 🤖 Auto Budget
 A smart budgeting assistant that automatically distributes user budgets across categories based on selected strategies:
 
 - **Balanced**, **Essentials First**, **Savings Focus**, **Lifestyle-Heavy** options
-- Respects user’s Personal Minimum Budget
+- Respects the user’s Personal Minimum Budget
+
+![🤖 Auto Budget](image4.jpg)
 
 ### 🅰️ Visual Grading Scale
 Helps users track how well they stick to their budget with easy-to-understand grades (A–F):
@@ -69,7 +77,9 @@ Helps users track how well they stick to their budget with easy-to-understand gr
 Makes BudgetBuddy more inclusive for international users:
 
 - Choose from multiple global currencies
-- Affects all screens including summaries, history, goals, and rewards
+- Affects all screens, including summaries, history, goals, and rewards
+
+![🌐 Currency Selector](image6.jpg)
 
 ### 🧁 Visual Spending by Category
 A combination of charts and detailed breakdowns:
@@ -78,6 +88,8 @@ A combination of charts and detailed breakdowns:
 - **Custom time filtering** (e.g., June 2025)
 - **Export report** to PDF/shareable formats
 
+![🧁 Visual Spending by Category](image7.jpg)
+
 ### 📈 Spending Analysis Over Time
 Powerful analytics tool to study financial trends:
 
@@ -85,6 +97,8 @@ Powerful analytics tool to study financial trends:
 - Category filtering and summary (e.g., R350 total, R11.29 daily avg)
 - Line graph + trend indicators (e.g., “Rising”)
 - Export functionality included
+
+![📈 Spending Analysis Over Time](image8.jpg)
 
 ---
 
@@ -103,6 +117,11 @@ Powerful analytics tool to study financial trends:
 | 9. Rewards & Achievements | Track and share badges earned |
 | 10. Profile Page | View and edit user profile |
 | 11. Settings Page | Manage notifications, cloud sync, and logout |
+
+![📷 Screens Overview](image9.jpeg)
+![📷 Screens Overview](image10.jpeg)
+![📷 Screens Overview](image11.jpeg)
+![📷 Screens Overview](image12.jpeg)
 
 ---
 
@@ -133,6 +152,8 @@ BudgetBuddy/
 
 ---
 
+![📂 Project Structure](image13.jpeg)
+
 ## 📦 Tech Stack
 
 - **Language:** Kotlin
@@ -143,6 +164,8 @@ BudgetBuddy/
 - **UI Components:** RecyclerView, ViewPager2, Navigation Component
 - **Charts:** MPAndroidChart (for graphs and pie charts)
 - **Backend:** Firebase (used for authentication and future cloud database)
+
+![📦 Tech Stack](image14.jpeg)
 
 ---
 
@@ -176,6 +199,8 @@ git clone https://github.com/ST10359034/BudgetBuddy.git
 | EMIL FABEL | ST10359034 | Budget Setup, Categories and Report Lead |
 | LISHA NAIDOO | ST10404816 | Gamification, UI Polish and GitHub/Testing Lead |
 
+![🧑‍🤝‍🧑 Team Members](image15.jpeg)
+
 ---
 
 ## 📈 Future Improvements
@@ -185,6 +210,8 @@ git clone https://github.com/ST10359034/BudgetBuddy.git
 - Dark mode theme
 - App widgets (e.g., monthly budget widget)
 - Voice-input for adding expenses
+
+![📈 Future Improvements](image16.jpeg)
 
 ---
 
