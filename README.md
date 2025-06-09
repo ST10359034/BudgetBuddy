@@ -62,6 +62,7 @@ Helps users track how well they stick to their budget with easy-to-understand gr
 
 - Displays in the *Rewards & Achievements* section
 - Includes progress bars and summary descriptions like “Excellent budget management this month”
+![🅰️ Visual Grading Scale](image5.jpg)
 
 ### 🌐 Currency Selector
 Makes BudgetBuddy more inclusive for international users:
