@@ -9,6 +9,7 @@
 
 - [🚀 About the Project](#-about-the-project)
 - [🛠️ Features](#️-features)
+- [🆕 New & Lecturer-Requested Features](#-new--lecturer-requested-features)
 - [📷 Screens Overview](#-screens-overview)
 - [📂 Project Structure](#-project-structure)
 - [📦 Tech Stack](#-tech-stack)
@@ -38,6 +39,50 @@ It offers **expense tracking**, **budget planning**, **reports**, **rewards**, a
 - 🔔 **Smart Notifications** — Budget alerts, daily reminders
 - ☁️ **Cloud Sync** — Backup your financial data securely
 - ⚙️ **Profile & Settings** — Manage personal details and app preferences
+
+---
+
+## 🆕 New & Lecturer-Requested Features
+
+### 📉 Personal Minimum Budget (Lecturer-Driven Enhancement)
+A custom budgeting floor that ensures users don’t budget below their essential needs.
+
+- Users input a personal minimum monthly budget (e.g., $1500).
+- Integrated with **Auto Budget**, influencing algorithmic recommendations.
+- Ensures realistic, goal-driven planning and serves as a safeguard against under-budgeting.
+
+### 🤖 Auto Budget
+A smart budgeting assistant that automatically distributes user budgets across categories based on selected strategies:
+
+- **Balanced**, **Essentials First**, **Savings Focus**, **Lifestyle-Heavy** options
+- Respects user’s Personal Minimum Budget
+
+### 🅰️ Visual Grading Scale
+Helps users track how well they stick to their budget with easy-to-understand grades (A–F):
+
+- Displays in the *Rewards & Achievements* section
+- Includes progress bars and summary descriptions like “Excellent budget management this month”
+
+### 🌐 Currency Selector
+Makes BudgetBuddy more inclusive for international users:
+
+- Choose from multiple global currencies
+- Affects all screens including summaries, history, goals, and rewards
+
+### 🧁 Visual Spending by Category
+A combination of charts and detailed breakdowns:
+
+- Interactive **donut chart** and **category table**
+- **Custom time filtering** (e.g., June 2025)
+- **Export report** to PDF/shareable formats
+
+### 📈 Spending Analysis Over Time
+Powerful analytics tool to study financial trends:
+
+- Choose timeframes: 7 days, 30 days, 3 months, 12 months
+- Category filtering and summary (e.g., R350 total, R11.29 daily avg)
+- Line graph + trend indicators (e.g., “Rising”)
+- Export functionality included
 
 ---
 
@@ -95,6 +140,7 @@ BudgetBuddy/
 - **Networking:** Retrofit (for future cloud sync)
 - **UI Components:** RecyclerView, ViewPager2, Navigation Component
 - **Charts:** MPAndroidChart (for graphs and pie charts)
+- **Backend:** Firebase (used for authentication and future cloud database)
 
 ---
 
@@ -103,7 +149,7 @@ BudgetBuddy/
 > 🧑‍💻 **No Android Studio experience? No problem!**
 
 ### 1. Install Android Studio
-- Download and install it from [here](https://developer.android.com/studio).
+- Download and install it from [here](https://developer.android.com/studio)
 
 ### 2. Clone the repository
 ```bash
@@ -111,11 +157,11 @@ git clone https://github.com/ST10359034/BudgetBuddy.git
 ```
 
 ### 3. Open in Android Studio
-- Open Android Studio ➔ *Open an existing project* ➔ Select the `BudgetBuddy` folder.
+- Open Android Studio ➔ *Open an existing project* ➔ Select the `BudgetBuddy` folder
 
 ### 4. Build & Run
 - Connect a device or start an Android Emulator
-- Press **Run** ▶️ button.
+- Press **Run** ▶️ button
 
 ---
 
@@ -136,6 +182,7 @@ git clone https://github.com/ST10359034/BudgetBuddy.git
 - Machine learning-based financial advice
 - Dark mode theme
 - App widgets (e.g., monthly budget widget)
+- Voice-input for adding expenses
 
 ---
 
@@ -145,13 +192,13 @@ git clone https://github.com/ST10359034/BudgetBuddy.git
 - [Kotlin Official Documentation](https://kotlinlang.org/docs/home.html)
 - [MPAndroidChart Documentation](https://github.com/PhilJay/MPAndroidChart)
 - [Room Persistence Library](https://developer.android.com/jetpack/androidx/releases/room)
-- [OpenAI](https://chatgpt.com/)
+- [OpenAI](https://chatgpt.com)
 
 ---
 
 ## ⚖️ License
 
-This project is licensed under the MIT License 
+This project is licensed under the **MIT License**
 
 ---
 
